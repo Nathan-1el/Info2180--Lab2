@@ -1,2 +1,3 @@
 # Info2180--Lab2
-LAb2 
+
+This is Lab 2 for Nathaniel Saunders
