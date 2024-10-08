@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    background: white;
+}
+header{
+    text-align: center;
+    background-color: aquamarine;
+    grid-column: span 2;
+}
+
+main{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 16px;
+}
+main h3{
+    color: rebeccapurple;
+}
+
+
+aside{
+    
+    grid-column: 2;
+    grid-row: 2;
+    padding: 16px;
+}
+
+aside ol{
+    color: rgb(24, 246, 65);
+}
+
+.image{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px;
+}
+
+footer{
+    background: #3c3c3b;
+    color: white;
+    padding: 10px;
+    grid-column: 1 / 3;
+}
